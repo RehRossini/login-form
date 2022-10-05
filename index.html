@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/1805c30d9c.js" crossorigin="anonymous" defer></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <!--Menu superior-->
+    <header>
+        <h1>DOO Login</h1>
+    </header>
+
+    <!--Login-->
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="email@email.com">
+
+                <div class="password-container">
+                    <input type="password" placeholder="**********" id="field-password" class="field-password">
+                    <i class="fa-regular fa-eye" id="olho" onclick="showPass()"></i>
+                    <i class="fa-regular fa-eye-slash" id="olho-barra" onclick="showPass()"></i>
+                </div>
+            </section>
+
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar Senha</span>
+                </div>
+                <a href="#">Esqueci minha senha</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Entre com:</span>
+                <aside>
+                    <a href="https://www.linkedin.com/in/renan-rossini/"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github github"></i></a>
+                </aside>
+            </section>
+
+            <footer>
+                <hr>
+                <span>Ainda não tem conta? <a href="#">Cadastre-se!</a></span>
+            </footer>
+        </form>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
